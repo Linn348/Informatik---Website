@@ -6,16 +6,16 @@ body {
 }
 
 header {
-    background-color: #333;
-    color: white;
+    background-color: #8c6666;
+    color: rgb(252, 249, 249);
     padding: 1em;
     text-align: center;
 }
 
 footer {
-    background-color: #333;
-    color: white;
-    padding: 0.5em;
+    background-color: #a16f6f;
+    color: rgb(255, 255, 255);
+    padding: 1em;
     text-align: center;
     position: fixed;
     bottom: 0;
