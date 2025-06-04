@@ -20,7 +20,7 @@ header #backlink {
 }
 * Grosser Titel */
 h1 {
-	background-color: deepskyblue;
+	background-color: rgb(125, 209, 240);
     color: blue;
 	padding: 0.5em;
 	font-family: arial;
@@ -71,19 +71,19 @@ footer > * {
 }
 /* Facebook */
 .fa-facebook {
-  background: #3B5998;
+  background: #fc7575;
   color: white;
 }
 
 /* Twitter */
 .fa-twitter {
-  background: #55ACEE;
+  background: #f95050;
   color: white;
 }
 
 /* Instagram */
 .fa-instagram {
-  background: #125688;
+  background: #f50707;
   color: white;
 }
 .flex-container {
