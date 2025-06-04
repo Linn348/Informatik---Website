@@ -1,0 +1,100 @@
+﻿@charset "utf-8";
+
+/* Hintergrund der Webseite */
+body {
+  max-width:80em;
+  margin: 1em auto;
+  font-family: arial;
+  background-color: white;
+}
+
+/* Positionierung von meinem eigenen Logo */
+header #backlink {
+ display:inline-block;
+ text-shadow: none; 
+ color: transparent;
+ background: transparent;
+ background-size: contain;
+ width: 5em;
+ height: 3em;
+}
+* Grosser Titel */
+h1 {
+	background-color: deepskyblue;
+    color: blue;
+	padding: 0.5em;
+	font-family: arial;
+	border-radius: 0 1em 1em 1em;
+}
+/* Kleiner Titel */
+h2 {
+	font-size: 2.6em;
+	color: white;
+	background-color: deepskyblue;
+	border: thin solid;
+	font-family: arial; 
+	text-align: center;
+}
+/* Paragraph */
+p    {color: gray;}
+
+/* Positionierung vom Inhaltszeichen */
+header {
+	height: 7em;
+	padding: 0 1em;
+	margin-bottom: 1em;
+  	display: grid;
+  	grid-template-columns: 6em 1fr 1fr;
+}
+/* Copyright Angaben */
+copyright {
+    color: black;
+    font-size: 0.75em;
+}
+/* Formatierung Fussnote */
+footer {
+  	display: grid;
+  	grid-template-columns: 1fr 15em;
+}
+footer > * {
+  grid-column: -2 / -1;
+}
+    
+/* font */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+/* Instagram */
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.flex-container {
+  display: flex;
+  background-color: deepskyblue;
+  justify-content: center;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 0px;
+  font-size: 30px;
+  list-style: 0;  }
